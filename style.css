@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arial Narrow', sans-serif;
+}
+/*Tausta*/
+.background{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/Background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+
+}
+/*Ylätunniste navigointi*/
+nav {
+    padding: 10 px 60;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 260px;
+}
+/*Ylätunniste väli*/
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+/*Ylätunniste tekstit*/
+nav ul li a{
+    text-decoration: underline;
+    color: #303f3c;
+    font-weight: 700;
+    font-family: 'arial narrow';
+    font-size: 15px;
+}
+/*Etusivu otsikko*/
+h1{
+    text-decoration: underline;
+    color: #303F3C;
+    font-size: 30px;
+    font-family: 'Arial Narrow', sans-serif;
+}
+/*Etusivu alaotsikko*/
+.frontpage-content .btn1{
+    display: inline-block;
+    text-decoration: underline;
+    color: #303F3C;
+    font-size: 25px;
+}
+/*Linkit*/
+.btn1{
+    padding: 2px 6px;
+    margin-left: 0%;
+    display: inline-block;
+    text-decoration: underline;
+    color: #303F3C;
+    font-size: 30px;
+}
+/*Työpaikka alaotsikot*/
+h2{
+    margin-top: 1%;
+    margin-left: 0%;
+    max-width: 600px;
+    display: inline-block;
+    text-decoration: underline;
+    color: #303F3C;
+    font-size: 25px
+}
+
+/* Yhteydenotto teksti*/
+.center-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+/*Alaotsikot etusivulla*/
+.content{
+    margin-top: 5%;
+    margin-left: 0%;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 15px;
+    color: #303F3C;
+}
+/*Alaotsikko etusivulla*/
+.content a{
+    margin-top: 0%;
+    margin-left: -9%;
+    font-size: 25px;
+    color: #303F3C;
+}
+/*Etusivu alaotsikot*/
+.content .btn{
+    padding: 1px 80px;
+    font-size: 25px;
+}
+/*Etusivu leipäteksti*/
+.content p{
+    margin-top: -5%;
+    margin: 10px 0px;
+    margin-right: 400px;
+    line-height: 1;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 20px;
+    color: #303F3C;
+}
+/*Työkokemus otsikko*/
+.career-content .btn1{
+    text-decoration: underline;
+    color: #303F3C;
+    font-size: 25;
+    font-family: 'Arial Narrow', sans-serif;
+}
+/*Työkokemus leipäteksti*/
+.career-content p{
+    margin-top: -5%;
+    margin: 10px 0px;
+    align-items: center;
+    line-height: 1;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 20px;
+    color: #303F3C;
+}
+
+/*Takaisin etusivulle-linkki*/
+.custom-link{
+    padding: 15px 80px;
+    margin-left: -6.5%;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #303F3C;
+    text-decoration: underline;
+}
+/*Osaaminen leipäteksti*/
+.skill-content p{
+    margin-top: -5%;
+    margin: 10px 0px;
+    align-items: center;
+    line-height: 1;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 20px;
+    color: #303F3C;
+}
+/*Yhteydenotto otsikko*/
+.contact-content .btn1{
+    text-decoration: underline;
+    color: #303F3C;
+    font-size: 25;
+    font-family: 'Arial Narrow', sans-serif;
+}
+/*Yhteydenotto leipäteksti*/
+.contact-content p{
+    margin-top: -5%;
+    margin: 10px 0px;
+    align-items: center;
+    line-height: 1;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 20px;
+    color: #303F3C;
+}
+/*Yhteydenotto laatikko*/
+.profile{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    top: 40%;
+    border-radius: 50%;
+}
+/*Yhteydenotto laatikko*/
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+/*Yhteydenotto laatikko tekstit*/
+.form-groub {
+    margin-bottom: 20px;
+}
+/*Yhteydenotto laatikko*/
+label {
+    display: block;
+    font-family:'Arial Narrow', sans-serif;
+    font-weight: bold;
+}
+/*Yhteydenotto laatikko*/
+input[type="text"],
+input[type="name"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 16px;
+}
+/*Nappi design*/
+button{
+    background-color: #303F3C;
+    font-family: 'Arial Narrow', sans-serif;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*Yhteydenotto lomake*/
+button:hover{
+    background-color: #303F3C;
+}
+/*Takaisin etusivulle-linkki*/
+.frontpage-link{
+    padding: 15px 80px;
+    margin-left: 6.5%;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #303F3C;
+    text-decoration: underline;
+}
